@@ -8,13 +8,13 @@ The Solidity smart contract, JointSavings, is designed to automate the creation 
 ## Methods Used:
 The JointSavings contract includes several essential methods and variables to facilitate joint savings account management:
 
-### withdraw(uint amount, address payable recipient): 
+* ### withdraw(uint amount, address payable recipient): 
 This method allows users to withdraw funds from the joint savings account. It verifies that the recipient is one of the account owners, checks for sufficient funds, updates the last withdrawal details, and transfers the specified amount to the recipient.
-### deposit(): 
+* ### deposit(): 
 The deposit method enables users to add funds to the joint savings account. It doesn't take any arguments and updates the contract's balance accordingly.
-### setAccounts(address payable account1, address payable account2): 
+* ### setAccounts(address payable account1, address payable account2): 
 This function sets the account addresses for the joint savings account. It assigns the provided addresses to accountOne and accountTwo, allowing them to control the account's funds.
-###  Fallback Function: 
+* ### Fallback Function: 
 The contract includes a fallback function (function() external payable{}) to accept Ether transfers. This is necessary for users to deposit Ether into the contract.
 
 ## Summary:
