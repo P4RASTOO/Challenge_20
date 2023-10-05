@@ -1,7 +1,7 @@
 
 <img width="790" alt="Screenshot 2023-10-04 at 10 36 41 PM" src="https://github.com/P4RASTOO/Challenge_20/assets/132952512/d2e00b19-c4a9-4a64-b98d-7cb7d6e1726c">
 
-# Challenge_19 Report
+# Challenge_20 Report
 ## Overview of the Analysis:
 The Solidity smart contract, JointSavings, is designed to automate the creation and management of joint savings accounts on an Ethereum-compatible blockchain. This fintech startup aims to disrupt the finance industry by connecting financial institutions through its own blockchain infrastructure.
 
